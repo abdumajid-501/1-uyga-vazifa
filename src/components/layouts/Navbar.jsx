@@ -5,7 +5,7 @@ function Navbar() {
   const { state, dispatch } = useContext(ThemeContext);
 
   return (
-    <div className="parrent"
+    <div 
       style={{
         background: state.dark ? "#111" : "#eee",
         color: state.dark ? "#fff" : "#000",
