@@ -11,7 +11,7 @@ function Navbar() {
         color: state.dark ? "#fff" : "#000",
           padding: "20px",
           display: "flex",
-        gap: "120   0px"
+        gap: "1200px"
       }}
     >
       <h2>Abdumajid Xolmatov</h2>
