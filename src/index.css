@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
-html {
-    min-height: 100vh;
+html, body {
+  height: 100%;
 }
+
+.parrent {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  flex-grow: 1;
+
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 20px;
+}
+
