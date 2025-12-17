@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <h1>Dark Mode</h1>
+      <h1>Dark Mode foydalanildi: useReduser va Context !</h1>
     </div>
   )
 }
